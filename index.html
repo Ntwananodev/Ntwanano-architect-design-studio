@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ntwanano Architect Design Studio</title>
+    
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="styles.css"> 
+
+</head>
+<body>
+
+    <!-- Main Header with Navigation -->
+    <header>
+        <h1>Welcome to Ntwanano Architect Design Studio</h1>
+
+        <!-- Navbar with Links to Different Sections -->
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to the homepage of Ntwanano Architect Design Studio. We specialize in architecture, interior design, and more.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>We offer architectural design, interior design, landscape design, and consultations. Let us help you bring your vision to life.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Completed Projects</h2>
+        <p>Here are some of the successful projects we have completed.</p>
+    </section>
+
+    <!-- Contact Section with Form -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+
+        <!-- Contact Form -->
+        <form id="contactForm">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+
+            <button type="submit">Send Message</button> <!-- Submit Button -->
+        </form>
+        
+        <!-- Area to display the confirmation message after form submission -->
+        <p id="confirmationMessage"></p>
+    </section>
+
+    <!-- Link to JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+</html>
